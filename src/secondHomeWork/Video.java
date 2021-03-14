@@ -1,9 +1,11 @@
-public class Video extends Media {
+package secondHomeWork;
+
+public class Video extends Media implements PlayableRecord {
 
     private int length;
 
-    protected Video(String author, String date, String message, String typeOfMessage, int length) {
-        super(author, date, message, typeOfMessage, "Video");
+    protected Video(String author, String date, String message, TypeOfMessage typeOfMessage, int length) {
+        super(author, date, message, typeOfMessage, "firstHomeWork.Video");
         this.length = length;
     }
 
@@ -24,4 +26,8 @@ public class Video extends Media {
         }
     }
 
+    @Override
+    public void play() {
+        //play video
+    }
 }
