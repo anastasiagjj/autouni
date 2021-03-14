@@ -1,4 +1,4 @@
-package firstHomeWork;
+package secondHomeWork;
 
 public class Audio extends Media implements PlayableRecord {
 

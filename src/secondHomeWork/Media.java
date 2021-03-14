@@ -1,4 +1,4 @@
-package firstHomeWork;
+package secondHomeWork;
 
 abstract public class Media extends AbstractRecord {
 

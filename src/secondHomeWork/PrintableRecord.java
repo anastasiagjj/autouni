@@ -1,4 +1,4 @@
-package firstHomeWork;
+package secondHomeWork;
 
 public interface PrintableRecord {
 

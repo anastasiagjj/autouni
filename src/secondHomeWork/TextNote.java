@@ -1,4 +1,4 @@
-package firstHomeWork;
+package secondHomeWork;
 
 public class TextNote extends AbstractRecord implements PrintableRecord {
 
