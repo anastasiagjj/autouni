@@ -1,8 +1,8 @@
-public class Audio extends Media {
+public class Audio extends Media implements PlayableRecord {
 
     private final String genre;
 
-    protected Audio(String author, String date, String message, String typeOfMessage, String genre) {
+    protected Audio(String author, String date, String message, TypeOfMessage typeOfMessage, String genre) {
         super(author, date, message, typeOfMessage, "Audio");
         this.genre = genre;
     }
@@ -16,4 +16,8 @@ public class Audio extends Media {
         return genre;
     }
 
+    @Override
+    public void play() {
+        //play audio
+    }
 }

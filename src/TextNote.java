@@ -1,8 +1,8 @@
-public class TextNote extends AbstractNote {
+public class TextNote extends AbstractRecord implements PrintableRecord {
 
     private int fontSize;
 
-    public TextNote(String author, String date, String message, String typeOfMessage, int fontSize) {
+    public TextNote(String author, String date, String message, TypeOfMessage typeOfMessage, int fontSize) {
         super(author, date, message, typeOfMessage);
         this.fontSize = fontSize;
     }
@@ -18,6 +18,11 @@ public class TextNote extends AbstractNote {
 
     public void changeFontSize(int size) {
         this.fontSize = size;
+    }
+
+    @Override
+    public void print(String pathToFile) {
+        //print text note
     }
 
 }
