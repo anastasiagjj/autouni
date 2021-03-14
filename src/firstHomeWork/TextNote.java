@@ -1,3 +1,5 @@
+package firstHomeWork;
+
 public class TextNote extends AbstractRecord implements PrintableRecord {
 
     private int fontSize;

@@ -1,3 +1,5 @@
+package firstHomeWork;
+
 abstract public class Media extends AbstractRecord {
 
     protected final String mediaType;

@@ -1,9 +1,11 @@
+package firstHomeWork;
+
 public class Audio extends Media implements PlayableRecord {
 
     private final String genre;
 
     protected Audio(String author, String date, String message, TypeOfMessage typeOfMessage, String genre) {
-        super(author, date, message, typeOfMessage, "Audio");
+        super(author, date, message, typeOfMessage, "firstHomeWork.Audio");
         this.genre = genre;
     }
 

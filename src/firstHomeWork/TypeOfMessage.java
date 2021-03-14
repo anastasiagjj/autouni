@@ -1,3 +1,5 @@
+package firstHomeWork;
+
 public enum TypeOfMessage {
 
     NOTE("note"),

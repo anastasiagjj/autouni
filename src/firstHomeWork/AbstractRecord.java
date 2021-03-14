@@ -1,3 +1,5 @@
+package firstHomeWork;
+
 abstract public class AbstractRecord {
 
     protected final String author;
